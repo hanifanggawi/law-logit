@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-c(9jzv=rljz7r9mr$+#3jo(!ss1#s(+-g_q6d+#(*xm+=lw8nl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost', 
+    '127.0.0.1',
+    'infralabs.cs.ui.ac.id'
+]
 
 
 # Application definition
